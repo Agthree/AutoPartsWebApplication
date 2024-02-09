@@ -20,7 +20,7 @@
         .navbar ul {
             list-style-type: none;
             margin: 0;
-            padding: 10px;
+            padding: 0;
             background: black;
         }
 
@@ -55,6 +55,7 @@
             background-color: #555;
         }
 
+
         /* grid layout */
         .partType {
             display: grid;
@@ -79,13 +80,13 @@
                 <li><a href="#">Sport</a></li>
             </ul>
         </li>
-        <li><a href="#">Products</a></li>
+        <li><a href="productCategories.jsp">Products</a></li>
 
         <li>
             <a href="#">Login/Account</a>
             <ul>
                 <li><a href="Cust%20Login.html">Customer</a> </li>
-                <li><a href="Login.html">Employee</a> </li>
+                <li><a href="login.jsp">Employee</a> </li>
             </ul>
         </li>
 

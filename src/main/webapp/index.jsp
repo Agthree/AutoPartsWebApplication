@@ -1,5 +1,4 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<!DOCTYPE html>
 <html>
 <head>
   <title>Home</title>
@@ -31,6 +30,7 @@
       border-radius: 10px;
       color: #ffffff;
     }
+
     .navbar {
       background-color: #333;
       position: relative;
@@ -40,7 +40,7 @@
     .navbar ul {
       list-style-type: none;
       margin: 0;
-      padding: 10px;
+      padding: 0;
       background: black;
     }
 
@@ -75,6 +75,7 @@
       background-color: #555;
     }
 
+
   </style>
 </head>
 <body>
@@ -92,13 +93,13 @@
         <li><a href="#">Sport</a></li>
       </ul>
     </li>
-    <li><a href="#">Products</a></li>
+    <li><a href="productCategories.jsp">Products</a></li>
 
     <li>
       <a href="#">Login/Account</a>
       <ul>
-        <li><a href="Cust%20Login.html">Customer</a> </li>
-        <li><a href="Login.html"> Employee</a> </li>
+        <li><a href="employeeLogin.jsp">Customer</a> </li>
+        <li><a href="login.jsp"> Employee</a> </li>
       </ul>
     </li>
 
